@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CustomerAdapter extends BaseAdapter<Customer> {
 
-    private OnItemClickListener ;
+    private  OnItemClickListener onItemClickListener;
 
     public CustomerAdapter(List<Customer> itemList) {
         super(itemList);
